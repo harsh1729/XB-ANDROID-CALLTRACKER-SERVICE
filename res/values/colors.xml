@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_green">#45AA2C</color>
+    <color name="app_white">#FFFFFF</color> 
+    <color name="app_black">#000000</color>
+    <color name="app_tranparent_black">#CC000000</color>
+    <color name="app_gray">#616161</color>   
+    <color name="app_lightgray">#A1A1A1</color>
+    <color name="app_verylightgray">#E1E1E1</color>
+    <color name="app_red">#FF0000</color>
+    <color name="app_lightblue">#118CE2</color>
+    <color name="app_blue">#0F7CC9</color>
+    <color name="app_orange">#FF8533</color>
+    <color name="app_transparent">#00000000</color>
+</resources>
+ 

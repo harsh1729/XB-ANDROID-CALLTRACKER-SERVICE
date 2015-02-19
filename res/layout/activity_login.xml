@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    tools:context="${relativePackage}.${activityClass}" >
+
+   
+
+    <LinearLayout
+        android:id="@+id/llytLogoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+         <ImageView
+        android:id="@+id/imgViewLogo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imgViewLogoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:contentDescription="@string/xerces_blue"
+        android:src="@drawable/logo_name" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtHeading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/app_blue"
+        android:textStyle="bold"
+        android:text="@string/login_heading_one" />
+    <TextView
+        android:id="@+id/txtHeading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/app_orange"
+        android:text="@string/login_heading_two" />
+
+    <LinearLayout
+        android:id="@+id/llytCredentialsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_square_lightgray"
+        
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="10dp"     
+            android:hint="@string/username"     
+            android:background="@drawable/border_square_white"
+            android:inputType="textEmailAddress" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password" 
+            android:layout_marginTop="20dp"          
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@drawable/border_square_white"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:textColor="@color/app_white"
+            android:background="@drawable/button_orange"
+            android:onClick="btnLoginClick"
+            android:text="@string/login"/>
+        
+    </LinearLayout>
+
+   
+</LinearLayout>
