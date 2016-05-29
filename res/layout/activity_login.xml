@@ -68,7 +68,8 @@
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:padding="10dp"     
-            android:hint="@string/username"     
+            android:hint="@string/username"
+            android:text="rakesh.narang"     
             android:background="@drawable/border_square_white"
             android:inputType="textEmailAddress" >
         </EditText>
@@ -81,6 +82,7 @@
             android:layout_marginTop="20dp"          
             android:gravity="center_vertical"
             android:padding="10dp"
+            android:text="password"
             android:background="@drawable/border_square_white"
             android:inputType="textPassword" />
 

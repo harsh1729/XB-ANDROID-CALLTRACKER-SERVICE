@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+  <!--   <include layout = "@layout/app_header"></include> -->
+    
+    
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.2"
+        android:orientation="vertical">"
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:id="@+id/dateViewSelect"
+            android:layout_marginLeft="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date :"
+            android:textColor="@color/app_black"
+            />
+        
+        <TextView 
+            android:id="@+id/dateView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/app_black"
+            />
+
+         <ImageView
+            android:id="@+id/imagedate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:clickable="true"
+            android:src="@drawable/calendar" />
+         
+         <LinearLayout 
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"></LinearLayout>
+        <ImageView 
+            android:id="@+id/imageRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:clickable="true"
+           
+            android:src="@drawable/refresh" />
+        
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewDetails"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </ListView>
+    
+    <TextView 
+        android:id="@+id/noContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="No content found "
+        android:typeface="monospace"
+        android:visibility="gone"/>
+</LinearLayout>
+</LinearLayout>

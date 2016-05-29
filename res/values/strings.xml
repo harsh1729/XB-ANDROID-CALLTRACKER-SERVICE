@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Phone Service</string>
-     <string name="login">Login</string>
+    <string name="app_name">Call Tracker</string>
+    <string name="login">Login</string>
     <string name="remember_me">Remember Me</string>
     <string name="password">password</string>
     <string name="username">username</string>
@@ -10,5 +10,7 @@
     <string name="logo">logo</string>
     <string name="login_heading_one">CALL TRACKER SERVICE</string>
     <string name="login_heading_two">Agent Mobile Interface</string>
+    <string name="title_activity_activity__details__show">Details Call</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
